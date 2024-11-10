@@ -9,7 +9,7 @@ def main ():
     
     choose = None
     while choose != 0 :
-        print ("Which of the following you want to start: ")
+        print ("Which of the following you want to start?(number here): ")
         print ("0.exit the program")
         print ("1.xml_to_json: This option is going to read sahmeto website xml files and change them to json file for you...")
         print ('2.scrapping_coin_names: This is going to scrap sahmeto website xml files and put the coin names within an array...')
